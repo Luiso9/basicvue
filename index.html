@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>VUE 2</title>
+	</head>
+	<body>
+		<div id="app">
+			<h1>+ Tempalate Syntax</h1>
+			<div v-bind:title="message1">{{ message }}</div>
+		</div>
+
+		<div id="conditional">
+			<h1>+ Conditional</h1>
+			<div class="conditional">
+				<span v-if="seen">Congrats</span>
+				<span v-else v-bind:title="tooltip">Well u cant see me.</span>
+			</div>
+
+			<ol>
+				<span>v-for</span>
+				<li v-for="todo in todos">{{ todo.text }}</li>
+			</ol>
+		</div>
+
+		<div id="user">
+			<h1>+ Handling User Inpput</h1>
+			<div>
+				<p>{{ message }}</p>
+				<button @click="reveal">Reveal</button>
+				<!-- v-on:click // shorthand @click -->
+				 <input type="text" v-model="binding">
+			</div>
+		</div>
+
+		<script src="node_modules/vue/dist/vue.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

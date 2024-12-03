@@ -6,22 +6,22 @@ This is just to track my progress on what i learn with Vue 2.
 
 ## ✅ **Setup and Basics**
 
-1. [ ] Install Vue CLI and set up your first Vue 2 project.
-2. [ ] Understand the structure of a Vue application (`App.vue`, `main.js`).
-3. [ ] Learn the basics of Vue instance (`new Vue`), including data, methods, and lifecycle hooks.
-4. [ ] Create a simple "Hello, World!" Vue app.
+1. [x] Install Vue CLI and set up your first Vue 2 project.
+2. [x] Understand the structure of a Vue application (`App.vue`, `main.js`).
+3. [x] Learn the basics of Vue instance (`new Vue`), including data, methods, and lifecycle hooks.
+4. [x] Create a simple "Hello, World!" Vue app.
 
 ---
 
 ## ✅ **Template Syntax and Directives**
 
-1. [ ] Use **template syntax** for dynamic rendering:
-   - [ ] `{{ }}` for text interpolation.
-   - [ ] `v-bind` for binding attributes.
-2. [ ] Experiment with Vue directives:
-   - [ ] `v-if` / `v-else` for conditional rendering.
-   - [ ] `v-for` for list rendering.
-   - [ ] `v-model` for two-way data binding.
+1. [x] Use **template syntax** for dynamic rendering:
+   - [x] `{{ }}` for text interpolation.
+   - [x] `v-bind` for binding attributes.
+2. [x] Experiment with Vue directives:
+   - [x] `v-if` / `v-else` for conditional rendering.
+   - [x] `v-for` for list rendering.
+   - [x] `v-model` for two-way data binding.
 3. [ ] Learn about event handling with `v-on`.
 
 ---
