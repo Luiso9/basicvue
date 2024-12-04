@@ -30,9 +30,33 @@
 				<p>{{ message }}</p>
 				<button @click="reveal">Reveal</button>
 				<!-- v-on:click // shorthand @click -->
-				 <input type="text" v-model="binding">
+				<input type="text" v-model="binding" />
 			</div>
 		</div>
+
+		<div id="Nuclear">
+			<div>
+				<h1>Conditional with Dynamic Response</h1>
+
+				<label for="servantIndex">Enter Servant Index:</label>
+				<input
+					type="number"
+					id="servantIndex"
+					v-model="servantIndex" 
+					@input="fetchData"
+					min="0"
+				/>
+				<h3>{{ servantName }}</h3>
+				<p v-if="loading">Loading...
+					<p v-else>No data available for the selected servant.</p>
+				</p>
+				<img :src="imageUrl" :alt="servantName" />		
+			</div>
+		</div>
+
+    <div>
+      
+    </div>
 
 		<script src="node_modules/vue/dist/vue.js"></script>
 		<script src="app.js"></script>
