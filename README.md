@@ -22,7 +22,7 @@ This is just to track my progress on what i learn with Vue 2.
    - [x] `v-if` / `v-else` for conditional rendering.
    - [x] `v-for` for list rendering.
    - [x] `v-model` for two-way data binding.
-3. [ ] Learn about event handling with `v-on`.
+3. [x] Learn about event handling with `v-on`.
 
 ---
 
